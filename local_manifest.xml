@@ -10,7 +10,7 @@
 
  <project path="vendor/xiaomi" name="EmadGr8/proprietary_vendor_xiaomi_twolip.git" remote="github" revision="main" />
 
- <project path="kernel/xiaomi/twolip" name="okta-10/mystic_kernel_sdm660-4.4.git" remote="github" revision="mystic-eol" />
+ <project path="kernel/xiaomi/sdm660" name="LineageOS/android_kernel_xiaomi_sdm660.git" remote="github" revision="lineage-18.1" />
 
  
 
