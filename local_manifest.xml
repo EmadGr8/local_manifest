@@ -23,18 +23,5 @@
    <!-- Kernel Trees -->
 <project path="kernel/xiaomi/sdm660" name="matheucomth/kernel_xiaomi_sdm660" remote="github" revision="13-4.4" />
     
-   <!-- HALS -->
-<remove-project name="hardware_qcom-caf_msm8998_media" />
-<remove-project name="hardware_qcom-caf_msm8998_display" />
-<remove-project name="hardware_qcom-caf_msm8998_audio" />
-<project path="hardware/qcom-caf/msm8998/display" name="karthik1896/hardware_qcom-caf_msm8998_display" remote="github" revision="13" />
-<project path="hardware/qcom-caf/msm8998/media" name="karthik1896/hardware_qcom-caf_msm8998_media" remote="github" revision="13" />
-<project path="hardware/qcom-caf/msm8998/audio" name="karthik1896/hardware_qcom-caf_msm8998_audio" remote="github" revision="13" />
-    
-       <!-- CLANG -->
-    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
-    <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
-    <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="arrowos-project/android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="gitlab" revision="master" /> 
-
     
 </manifest>
