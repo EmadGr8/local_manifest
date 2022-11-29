@@ -2,9 +2,6 @@
 
 <manifest>
 
- <!-- Remote -->
-     <remote name="clang"
-                fetch="https://gitlab.com/Amritorock" />
 
  <!-- Trees -->
 
