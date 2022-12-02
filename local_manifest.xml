@@ -9,7 +9,7 @@
     <!-- Sync trees -->
     <project path="device/xiaomi/tulip" name="tedomi2705/device_xiaomi_tulip" remote="all" revision="snow" />
     <project path="vendor/xiaomi/tulip" name="tedomi2705/vendor_xiaomi_tulip" remote="all" revision="snow" />
-    <project path="kernel/xiaomi/sdm660" name="LineageOS/android_kernel_xiaomi_sdm660" remote="all" revision="lineage-19.1" />
+    <project path="kernel/xiaomi/sdm660" name="okta-10/mystic_kernel_sdm660-4.4" remote="all" revision="mystic-eol" />
     <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="all" revision="arrow-11.0" />
     
 </manifest>
