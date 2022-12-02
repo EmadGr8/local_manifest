@@ -8,7 +8,7 @@
     
     <!-- Sync trees -->
     <project path="device/xiaomi/twolip" name="EmadGr8/device_xiaomi_twolip" remote="all" revision="lineage-19.1-new" />
-    <project path="device/xiaomi/sdm660-common" name="LineageOS/android_device_xiaomi_sdm660-common" remote="all" revision="lineage-19.1" /> 
+    <project path="device/xiaomi/sdm660-common" name="EmadGr8/device_xiaomi_sdm660-common" remote="all" revision="lineage-19.1-new" /> 
     <project path="vendor/xiaomi" name="EmadGr8/proprietary_vendor_xiaomi_twolip" remote="all" revision="main" />
     <project path="kernel/xiaomi/sdm660" name="LineageOS/android_kernel_xiaomi_sdm660" remote="all" revision="lineage-19.1" />
     <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="all" revision="arrow-11.0" />
