@@ -8,7 +8,6 @@
     
     <!-- Sync trees -->
     <project path="device/xiaomi/tulip" name="Evolution-X-Devices/device_xiaomi_tulip" remote="all" revision="snow" />
-    <project path="device/xiaomi/sdm660-common" name="Evolution-X-Devices/device_xiaomi_sdm660-common" remote="all" revision="snow" />
     <project path="vendor/xiaomi/sdm660-common" name="Evolution-X-Devices/vendor_xiaomi_sdm660-common" remote="all" revision="snow" />
     <project path="vendor/xiaomi/tulip" name="Evolution-X-Devices/vendor_xiaomi_tulip" remote="all" revision="snow" />
     <project path="kernel/xiaomi/sdm660" name="Evolution-X-Devices/kernel_xiaomi_sdm660" remote="all" revision="eas" />
