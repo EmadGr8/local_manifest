@@ -7,6 +7,9 @@
     <remote name="Evolution-X" fetch="https://github.com/Evolution-X" />
     <remote name="Evolution-X-Devices" fetch="https://github.com/Evolution-X-Devices" />
     <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
+    <remote name="all"
+          fetch="https://github.com/"
+          clone-depth="1" /> 
     
     <!--Trees-->
     <project path="device/xiaomi/tulip" name="device_xiaomi_tulip" remote="Evolution-X-Devices" revision="snow" />
