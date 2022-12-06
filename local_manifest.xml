@@ -7,9 +7,9 @@
               clone-depth="1" />
 
         <!-- Sync trees -->
-        <project path="device/xiaomi/tulip" name="device_xiaomi_tulip" remote="all" revision="snow" />
-        <project path="vendor/xiaomi/tulip" name="vendor_xiaomi_tulip" remote="all" revision="snow" />
-        <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660" remote="all" revision="eas" />
+        <project path="device/xiaomi/tulip" name="Evolution-X-Devices/device_xiaomi_tulip" remote="all" revision="snow" />
+        <project path="vendor/xiaomi/tulip" name="Evolution-X-Devices/vendor_xiaomi_tulip" remote="all" revision="snow" />
+        <project path="kernel/xiaomi/sdm660" name="Evolution-X-Devices/kernel_xiaomi_sdm660" remote="all" revision="eas" />
         <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="all" revision="arrow-11.0" />
 
 </manifest>
