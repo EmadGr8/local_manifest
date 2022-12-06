@@ -1,25 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-	<!-- Remotes -->
-	<remote name="clang" 
-		 fetch="https://gitlab.com/Amritorock/" />
+        <!-- Remotes -->
+        <remote name="all"
+              fetch="https://github.com/"
+              clone-depth="1" />
 
-	<remote  name="Gitlab"
-	 	 fetch="https://gitlab.com/" />
-
-        <remote name="Evolution-X-Devices"
-		 fetch="https://github.com/Evolution-X-Devices" />
-	
-        <!-- Trees -->
-        <project path="device/xiaomi/tulip" name="device_xiaomi_tulip" remote="Evolution-X-Devices" revision="snow" />
-        <project path="vendor/xiaomi/tulip" name="vendor_xiaomi_tulip" remote="Evolution-X-Devices" revision="snow" />
-        <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660" remote="Evolution-X-Devices" revision="eas" />
-
-        <!-- CLANG -->
-        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
-        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
-        <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="arrowos-project/android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="gitlab" revision="master" /> 
-
+        <!-- Sync trees -->
+        <project path="device/xiaomi/tulip" name="device_xiaomi_tulip" remote="all" revision="snow" />
+        <project path="vendor/xiaomi/tulip" name="vendor_xiaomi_tulip" remote="all" revision="snow" />
+        <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660" remote="all" revision="eas" />
+        <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="all" revision="arrow-11.0" />
 
 </manifest>
