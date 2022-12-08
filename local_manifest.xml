@@ -9,8 +9,8 @@
 
     
           <!-- Sync trees -->
-          <project path="device/xiaomi/tulip" name="matheucomth/android_device_xiaomi_tulip" remote="all" revision="13" />
-          <project path="vendor/xiaomi/tulip" name="matheucomth/android_vendor_xiaomi_tulip" remote="all" revision="13" />
+          <project path="device/xiaomi/tulip" name="Evolution-X-Devices/device_xiaomi_tulip" remote="all" revision="tiramisu" />
+          <project path="vendor/xiaomi/tulip" name="Evolution-X-Devices/vendor_xiaomi_tulip" remote="all" revision="tiramisu" />
           <project path="kernel/xiaomi/sdm660" name="matheucomth/kernel_xiaomi_sdm660" remote="all" revision="13-4.4" />
           <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="all" revision="master" />
 
