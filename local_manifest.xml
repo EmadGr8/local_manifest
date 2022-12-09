@@ -7,7 +7,7 @@
               clone-depth="1" />
 
         <!-- Sync trees -->
-        <project path="device/xiaomi/tulip" name="Evolution-X-Devices/device_xiaomi_tulip" remote="all" revision="snow" />
+        <project path="device/xiaomi/tulip" name="EmadGr8/device-xiaomi-tulip" remote="all" revision="Evo-LOS19" />
         <project path="vendor/xiaomi/tulip" name="Evolution-X-Devices/vendor_xiaomi_tulip" remote="all" revision="snow" />
         <project path="kernel/xiaomi/sdm660" name="Evolution-X-Devices/kernel_xiaomi_sdm660" remote="all" revision="eas" />
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="all" revision="master" />
