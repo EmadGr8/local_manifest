@@ -7,7 +7,7 @@
               clone-depth="1" />
 
         <!-- Sync trees -->
-        <project path="device/xiaomi/tulip" name="BlissRoms-Devices/android_device_xiaomi_tulip" remote="all" revision="arcadia" />
+        <project path="device/xiaomi/tulip" name="EmadGr8/Bliss_device_xiaomi_tulip" remote="all" revision="Mine" />
         <project path="vendor/xiaomi/tulip" name="BlissRoms-Devices/vendor_xiaomi_tulip" remote="all" revision="12" />
         <project path="kernel/xiaomi/sdm660" name="BlissRoms-Devices/kernel_xiaomi_sdm660" remote="all" revision="eas" />
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="all" revision="master" />
