@@ -12,4 +12,8 @@
     <project path="kernel/xiaomi/sdm660" name="EmadGr8/kernel_xiaomi_sdm660" remote="all" revision="13-4.4" />
     <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="all" revision="arrow-11.0" />
     
+    <!-- HALS -->
+    <remove-project name="ArrowOS/android_hardware_qcom_display" />
+    <project path="hardware/qcom-caf/msm8998/display" name="matheucomth/hardware_qcom-caf_msm8998_display" remote="all" revision="12.1" />
+
 </manifest>
