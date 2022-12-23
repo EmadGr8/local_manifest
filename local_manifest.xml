@@ -7,7 +7,7 @@
           clone-depth="1" /> 
     
     <!-- Sync trees -->
-    <project path="device/xiaomi/twolip" name="crdroidandroid/android_device_xiaomi_twolip" remote="all" revision="rebase" />
+    <project path="device/xiaomi/twolip" name="EmadGr8/android_device_xiaomi_twolip-1" remote="all" revision="rebase-1" />
     <project path="vendor/xiaomi/twolip" name="crdroidandroid/android_vendor_xiaomi_twolip" remote="all" revision="12.1" />
     <project path="kernel/xiaomi/sdm660" name="crdroidandroid/android_kernel_xiaomi_sdm660" remote="all" revision="12.1" />
     <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="all" revision="arrow-11.0" />
