@@ -7,13 +7,14 @@
           clone-depth="1" /> 
     <remote name="clang"
           fetch="https://gitlab.com/Amritorock" />
+    <remote  name="gitlab"
+          fetch="https://gitlab.com/" />
 
     <!-- Sync trees -->
     <project path="device/xiaomi/tulip" name="EmadGr8/arrow-13-device_xiaomi_tulip" remote="all" revision="13.x" />
     <project path="vendor/xiaomi/tulip" name="EmadGr8/arrow-13-vendor_xiaomi_tulip" remote="all" revision="13.x" />
     <project path="kernel/xiaomi/sdm660" name="EmadGr8/kernel_xiaomi_sdm660" remote="all" revision="13-4.4" />
-    <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="arrowos-project/android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="gitlab" revision="master" /> 
-    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
-    <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="all" revision="arrow-11.0" />
+    <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="arrowos-project/android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="gitlab" revision="master" />
+    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
     
 </manifest>
