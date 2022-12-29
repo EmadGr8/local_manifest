@@ -6,7 +6,9 @@
 
  <project path="device/sony/z3dual" name="LineageOS/android_device_sony_z3dual" remote="github" revision="lineage-18.1" />
 
- <project path="device/sony/msm8974-common" name="LineageOS/android_device_sony_msm8974-common" remote="github" revision="lineage-18.1" />
+ <project path="device/sony/z3" name="LineageOS/android_device_sony_z3" remote="github" revision="lineage-18.1" />
+
+ <project path="device/sony/shinano-common" name="LineageOS/android_device_sony_shinano-common" remote="github" revision="lineage-18.1" />
 
  <project path="kernel/sony/msm8974" name="LineageOS/android_kernel_sony_msm8974" remote="github" revision="lineage-18.1" />
 
