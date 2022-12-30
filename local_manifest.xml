@@ -16,5 +16,6 @@
 
  <project path="kernel/sony/msm8974" name="LineageOS/android_kernel_sony_msm8974" remote="github" revision="lineage-18.1" />
  
+ <remove-project name="LineageOS/android_packages_apps_FMRadio" />
 
 </manifest>
