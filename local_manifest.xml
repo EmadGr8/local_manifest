@@ -15,8 +15,6 @@
  <project path="vendor/sony" name="TheMuppets/proprietary_vendor_sony" remote="github" revision="lineage-18.1" />
 
  <project path="kernel/sony/msm8974" name="LineageOS/android_kernel_sony_msm8974" remote="github" revision="lineage-18.1" />
-
- <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="github" revision="lineage-18.1" />
  
 
 </manifest>
