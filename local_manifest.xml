@@ -12,7 +12,7 @@
                 fetch="https://gitlab.com/arrowos-project" />
 
   <!-- trees -->
-  <project path="device/xiaomi/tulip" name="device_xiaomi_tulip-MOCHA" remote="EmadGr8" revision="13.x" />
+  <project path="device/xiaomi/tulip" name="device_xiaomi_tulip-MOCHA" remote="EmadGr8" revision="derpfest13" />
   <project path="vendor/xiaomi/tulip" name="vendor_xiaomi_tulip-MOCHA" remote="EmadGr8" revision="13.x" />
   <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660-MOCHA-fixed" remote="EmadGr8" revision="eas" />
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
