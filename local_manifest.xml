@@ -1,17 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <manifest>
+    
+     <!--remotes -->
+       <remote name="xyz-mocha" 
+                fetch="https://github.com/xyz-mocha" />
 
- <!-- Trees -->
+       <remote name="baibhab34"
+                fetch="https://github.com/baibhab34" />
 
- <project path="device/xiaomi/twolip" name="LineageOS/android_device_xiaomi_twolip.git" remote="github" revision="lineage-18.1" />
+       <remote name="EmadGr8"
+                fetch="https://github.com/EmadGr8" />
 
- <project path="device/xiaomi/sdm660-common" name="LineageOS/android_device_xiaomi_sdm660-common.git" remote="github" revision="lineage-18.1" />
+       <remote name="SuperiorOS"
+                fetch="https://github.com/SuperiorOS" />
 
- <project path="vendor/xiaomi" name="EmadGr8/proprietary_vendor_xiaomi_twolip.git" remote="github" revision="main" />
+       <remote name="clang"
+                fetch="https://gitlab.com/Amritorock" />
 
- <project path="kernel/xiaomi/sdm660" name="LineageOS/android_kernel_xiaomi_sdm660.git" remote="github" revision="lineage-18.1" />
+       <remote name="ArrowOS-Devices"
+                fetch="https://github.com/ArrowOS-Devices" />
 
- 
+       <remote name="arrowos-project"
+                fetch="https://gitlab.com/arrowos-project" />
+
+  <!-- trees -->
+  <project path="device/xiaomi/tulip" name="device_xiaomi_tulip-1" remote="EmadGr8" revision="13.x" />
+  <project path="vendor/xiaomi/tulip" name="vendor_xiaomi_tulip-2" remote="EmadGr8" revision="13.x" />
+  <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660-MOCHA-fixed" remote="EmadGr8" revision="eas" />
+
+  <!-- others -->
+  <remove-project name="android_bionic" />
+  <remove-project name="platform/external/jemalloc_new" />
+  <project path="bionic" name="android_bionic" remote="EmadGr8" revision="arrow-13.0" />
+  <project path="external/jemalloc_new" name="android_external_jemalloc_new" remote="SuperiorOS" revision="thirteen" />
+  <project path="packages/apps/GCamGOPrebuilt" name="android_packages_apps_GCamGOPrebuilt" remote="ArrowOS-Devices" revision="arrow-13.0" />
+
+  <!-- clang -->
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="arrowos-project" revision="master" clone-depth="1" />
 
 </manifest>
