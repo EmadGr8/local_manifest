@@ -2,17 +2,8 @@
 <manifest>
     
      <!--remotes -->
-       <remote name="xyz-mocha" 
-                fetch="https://github.com/xyz-mocha" />
-
-       <remote name="baibhab34"
-                fetch="https://github.com/baibhab34" />
-
        <remote name="EmadGr8"
                 fetch="https://github.com/EmadGr8" />
-
-       <remote name="SuperiorOS"
-                fetch="https://github.com/SuperiorOS" />
 
        <remote name="clang"
                 fetch="https://gitlab.com/Amritorock" />
@@ -21,15 +12,9 @@
                 fetch="https://gitlab.com/arrowos-project" />
 
   <!-- trees -->
-  <project path="device/xiaomi/tulip" name="device_xiaomi_tulip-1" remote="EmadGr8" revision="13.x" />
-  <project path="vendor/xiaomi/tulip" name="vendor_xiaomi_tulip-2" remote="EmadGr8" revision="13.x" />
-  <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660-MOCHA-fixed" remote="EmadGr8" revision="eas" />
-
-  <!-- others -->
-  <remove-project name="android_bionic" />
-  <remove-project name="platform/external/jemalloc_new" />
-  <project path="bionic" name="android_bionic" remote="EmadGr8" revision="arrow-13.0" />
-  <project path="external/jemalloc_new" name="android_external_jemalloc_new" remote="SuperiorOS" revision="thirteen" />
+  <project path="device/xiaomi/tulip" name="device_xiaomi_tulip-2" remote="EmadGr8" revision="arrow" />
+  <project path="vendor/xiaomi/tulip" name="vendor_xiaomi_tulip-3" remote="EmadGr8" revision="13" />
+  <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660" remote="EmadGr8" revision="13-4.4" />
 
   <!-- clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
