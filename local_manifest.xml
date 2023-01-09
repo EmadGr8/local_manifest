@@ -5,6 +5,9 @@
        <remote name="xyz-mocha" 
                 fetch="https://github.com/xyz-mocha" />
 
+      <remote name="github" 
+                fetch="https://github.com" />
+
        <remote name="baibhab34"
                 fetch="https://github.com/baibhab34" />
 
@@ -16,9 +19,6 @@
 
        <remote name="clang"
                 fetch="https://gitlab.com/Amritorock" />
-
-       <remote name="ArrowOS-Devices"
-                fetch="https://github.com/ArrowOS-Devices" />
 
        <remote name="arrowos-project"
                 fetch="https://gitlab.com/arrowos-project" />
@@ -33,7 +33,7 @@
   <remove-project name="platform/external/jemalloc_new" />
   <project path="bionic" name="android_bionic" remote="EmadGr8" revision="arrow-13.0" />
   <project path="external/jemalloc_new" name="android_external_jemalloc_new" remote="SuperiorOS" revision="thirteen" />
-  <project path="packages/apps/GCamGOPrebuilt" name="android_packages_apps_GCamGOPrebuilt" remote="ArrowOS-Devices" revision="arrow-13.0" />
+  <project path="packages/apps/GCamGOPrebuilt" name="ArrowOS-Devices/android_packages_apps_GCamGOPrebuilt" remote="github" revision="arrow-13.0" />
 
   <!-- clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
