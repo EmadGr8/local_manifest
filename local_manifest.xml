@@ -12,12 +12,13 @@
                 fetch="https://gitlab.com/arrowos-project" />
 
   <!-- trees -->
-  <project path="device/xiaomi/tulip" name="device_xiaomi_tulip-2" remote="EmadGr8" revision="arrow" />
+  <project path="device/xiaomi/tulip" name="device_xiaomi_tulip-2" remote="EmadGr8" revision="awaken-1" />
   <project path="vendor/xiaomi/tulip" name="vendor_xiaomi_tulip-3" remote="EmadGr8" revision="13" />
   <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660" remote="EmadGr8" revision="13-4.4" />
 
   <!-- clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="arrowos-project" revision="master" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
 
 </manifest>
