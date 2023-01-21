@@ -12,7 +12,7 @@
                 fetch="https://gitlab.com/arrowos-project" />
 
   <!-- trees -->
-  <project path="device/xiaomi/tulip" name="device_xiaomi_tulip-2" remote="EmadGr8" revision="arrow" />
+  <project path="device/xiaomi/tulip" name="device_xiaomi_tulip-2" remote="EmadGr8" revision="arrow-1" />
   <project path="vendor/xiaomi/tulip" name="vendor_xiaomi_tulip-3" remote="EmadGr8" revision="13" />
   <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660" remote="EmadGr8" revision="13-4.4" />
 
