@@ -12,9 +12,11 @@
                 fetch="https://gitlab.com/arrowos-project" />
 
   <!-- trees -->
-  <project path="device/xiaomi/tulip" name="ted-device_xiaomi_tulip" remote="EmadGr8" revision="arrow" />
-  <project path="vendor/xiaomi/tulip" name="ted-vendor_xiaomi_tulip" remote="EmadGr8" revision="tiramisu" />
-  <project path="kernel/xiaomi/sdm660" name="ted-kernel_xiaomi_sdm660" remote="EmadGr8" revision="tiramisu" />
+  <project path="device/xiaomi/tulip" name="device_xiaomi_tulip" remote="EmadGr8" revision="arrow" />
+  <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="EmadGr8" revision="thirteen" />
+  <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" remote="EmadGr8" revision="thirteen" />
+  <project path="vendor/xiaomi/tulip" name="vendor_xiaomi_tulip" remote="EmadGr8" revision="thirteen" />
+  <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660-1" remote="EmadGr8" revision="thirteen" />
 
   <!-- clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
