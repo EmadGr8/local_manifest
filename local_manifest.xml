@@ -9,9 +9,9 @@
                 fetch="https://gitlab.com/Amritorock" />
 
   <!-- trees -->
-  <project path="device/xiaomi/tulip" name="device_xiaomi_tulip" remote="EmadGr8" revision="tiramisu" />
-  <project path="vendor/xiaomi/tulip" name="vendor_xiaomi_tulip" remote="EmadGr8" revision="tiramisu" />
-  <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660" remote="EmadGr8" revision="tiramisu" />
+  <project path="device/xiaomi/twolip" name="device_xiaomi_twolip" remote="EmadGr8" revision="LOS" />
+  <project path="vendor/xiaomi/twoliph" name="vendor_xiaomi_twolip" remote="EmadGr8" revision="tiramisu" />
+  <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_sdm660" remote="EmadGr8" revision="13" />
 
   <!-- clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
